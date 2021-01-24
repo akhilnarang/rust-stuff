@@ -5,6 +5,7 @@ fn main() {
 }
 
 fn with_variable() -> isize {
+    // Function that returns an integer
     let x = {
         let y = 5;
         y + 1
@@ -13,6 +14,7 @@ fn with_variable() -> isize {
 }
 
 fn without_variable() -> f64 {
+    // Function that returns a float
     let x = {
         let _ = false;
         3.14
@@ -21,5 +23,6 @@ fn without_variable() -> f64 {
 }
 
 fn test_return() -> bool {
+    // Function that returns a bool
     false
 }
