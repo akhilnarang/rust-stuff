@@ -10,5 +10,4 @@ fn main() {
     println!("First value is {}", arr_test[0]);
     println!("Second value is {}", arr_test[1]);
     println!("Third value is {}", arr_test[2]);
-
 }

@@ -14,5 +14,5 @@ fn one_int_param(n: isize) {
 }
 
 fn more_params(m: f64, n: bool) {
-    println!("{} and {}", m , n);
+    println!("{} and {}", m, n);
 }
