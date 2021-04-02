@@ -1,11 +1,11 @@
 #[derive(Debug)]
 enum Test {
-    Lol
+    Lol,
 }
 #[derive(Debug)]
 enum Vowel {
     A,
-    E, 
+    E,
     I,
     O,
     U,
@@ -21,7 +21,7 @@ fn position(vowel: Vowel) -> i8 {
         Vowel::No(temp) => {
             println!("{:?}", temp);
             0
-        },
+        }
         _ => {
             println!("Unmatched case - {:?}", vowel);
             -1
